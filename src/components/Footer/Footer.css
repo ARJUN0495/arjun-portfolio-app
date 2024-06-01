@@ -1,0 +1,30 @@
+.footer-wrapper {
+  box-shadow: 0 9px 10px rgb(0 0 0 / 10%);
+  background-color: #080f5b;
+  padding: 20px 0;
+}
+
+.footer {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content-text {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0 10px;
+  color: #fff;
+  letter-spacing: 2.8px;
+  margin: 0;
+}
+
+.footer-text {
+  color: #fff;
+  margin-top: 10px;
+  font-family: "Google Sans Medium";
+  text-shadow: 0 2px 5px black;
+}

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+  align-items: center;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  margin-top: 80px;
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-shadow: 0 1px 2px black;
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold";
+}
+
+.greeting-text-p {
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.greeting-image-div {
+  text-align: center;
+
+  img {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+.greeting-image-div > div > div {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.nick {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.wave {
+  font-size: 2.7rem;
+}
+.portfolio-repo-btn-div {
+  display: flex;
+  gap: 32px;
+  margin-top: 16px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 1080px) {
+  .greeting-text {
+    font-size: 30px;
+  }
+  .wave {
+    font-size: 1.2rem;
+  }
+  .greeting-nickname {
+    font-size: 20px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 976px) {
+  .wave {
+    font-size: 1.2rem;
+  }
+  .greeting-nickname {
+    font-size: 20px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+  .nick {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  .greeting-main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 781px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-repo-btn-div {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 643px) {
+  .main {
+    margin: 0;
+    padding: 24px;
+    width: 100vw;
+  }
+  .greeting-main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .lottie {
+    height: 300;
+    width: 300;
+  }
+}

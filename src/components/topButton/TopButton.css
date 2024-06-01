@@ -1,0 +1,27 @@
+#topButton {
+  visibility: hidden;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border-radius: 50%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#topButton i {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #topButton {
+    display: none;
+  }
+}
