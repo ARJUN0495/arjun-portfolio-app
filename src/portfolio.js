@@ -24,7 +24,7 @@ const greeting = {
   nickname: "Frontend Developer",
   subTitle: `An experienced Front-end developer driven by passion, seeking dynamic opportunities to leverage my skills in crafting exceptional digital experiences. Committed to pushing boundaries, I aim to contribute to organizational growth while advancing my career journey`,
   resumeLink:
-    "https://drive.google.com/file/d/1QO7TFfKQfIZaAcIIm3NsATzWxb__QV0Z/view?usp=drive_link",
+    "https://drive.google.com/file/d/1IkRPQ3vwuW9wNzQ2kskPrC-DISpAE1yO/view?usp=drive_link",
   portfolio_repository: "https://github.com/ARJUN0495/portfolio-website-arjun",
 };
 

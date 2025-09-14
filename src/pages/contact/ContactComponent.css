@@ -85,6 +85,7 @@
   line-height: 1.1;
   text-align: center;
   margin-top: 60px;
+  text-shadow: 0 2px 5px black;
 }
 
 .blog-heading-text {
@@ -94,6 +95,7 @@
   line-height: 1.1;
   text-align: center;
   margin-top: 40px;
+  text-shadow: 0 2px 5px black;
 }
 
 .address-heading-text {
@@ -101,6 +103,7 @@
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
+  
 }
 
 .contact-header-detail-text {

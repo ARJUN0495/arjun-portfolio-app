@@ -216,6 +216,11 @@
     margin-right: 0;
   }
 
+  .projects-heading-img-div > * {
+    max-width: 100%;
+    max-height: 180px;
+  }
+
   .list {
     display: flex;
     align-items: center;

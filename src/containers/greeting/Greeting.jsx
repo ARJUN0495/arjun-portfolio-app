@@ -6,6 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FrontendAnime from "../../Animations/front-end-developer-anime.json";
 import LottieAnimation from "../../Lottie";
+import { Link } from "react-router-dom";
 
 const Greeting = (props) => {
   const theme = props.theme;
@@ -34,12 +35,13 @@ const Greeting = (props) => {
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
-                <Button
-                  text="CONTACT ME"
-                  href="/contact"
+                <Link
+                  to="/contact"
+                  className="portfolio-repo-btn-link main-button"
                   theme={theme}
-                  className="portfolio-repo-btn"
-                />
+                >
+                  CONTACT ME
+                </Link>
                 <Button
                   text="VIEW MY RESUME"
                   href={greeting.resumeLink}

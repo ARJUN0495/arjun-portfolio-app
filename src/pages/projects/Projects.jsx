@@ -168,7 +168,7 @@ const Projects = (props) => {
                   </li>
                   <li>
                     <a
-                      href="https://netflix-clone-project.netlify.app/login"
+                      href="https://screenify-movie-project.netlify.app/login"
                       target="_blank"
                     >
                       <i className="fas fa-external-link-alt"></i>
