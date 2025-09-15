@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import foodDeliveryImage from "../../assests/images/Food-delivary-app.png";
 
 import nextJsProjectImage from "../../assests/images/Nextjs-project-pic.png";
-import netflixCloneImage from "../../assests/images/Netflix-clone-pic.png";
+import movieWatchSite from "../../assests/images/Movie-watch-site.png";
 
 const Projects = (props) => {
   const theme = props.theme;
@@ -130,24 +130,23 @@ const Projects = (props) => {
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
             <div className="projects-heading-img-div">
-              <img src={netflixCloneImage} alt="Netflix Clone" />
+              <img src={movieWatchSite} alt="Movie Watch site" />
             </div>
             <div className="projects-heading-text-div">
               <h1
                 className="projects-heading-text"
                 style={{ color: theme.text }}
               >
-                Netflix Clone
+                Movie Watch Site
               </h1>
               <div className="underline"></div>
               <p
                 className="projects-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                Netflix clone is the frontend of the Netflix page with an
-                authentication feature using firebase. It has netflix signin
-                page, homepage, movie data. The movie data are fetched using
-                TMDB Api
+                Movie watch site is the frontend of the movies page with an
+                authentication feature using firebase. It has signin page,
+                homepage, movie data. The movie data are fetched using TMDB Api
               </p>
               <div className="list">
                 <ul className="listitems">
@@ -160,7 +159,7 @@ const Projects = (props) => {
                 <ul className="listicons">
                   <li>
                     <a
-                      href="https://github.com/ARJUN0495/netflix-clone-project"
+                      href="https://github.com/ARJUN0495/movie-watch-site-project"
                       target="_blank"
                     >
                       <i className="fab fa-github"></i>
@@ -168,7 +167,7 @@ const Projects = (props) => {
                   </li>
                   <li>
                     <a
-                      href="https://screenify-movie-project.netlify.app/login"
+                      href="https://movie-watch-site.netlify.app/"
                       target="_blank"
                     >
                       <i className="fas fa-external-link-alt"></i>
